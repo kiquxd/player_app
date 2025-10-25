@@ -1,0 +1,5 @@
+title: "My App Downloads"
+description: "Download page for my iOS app"
+theme: jekyll-theme-slate
+
+remote_theme: pages-themes/slate@v0.2.0
