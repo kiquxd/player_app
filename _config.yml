@@ -1,5 +1,8 @@
-title: "My App Downloads"
+title: "App Hub"
 description: "Download page for my iOS app"
 theme: jekyll-theme-slate
+
+content_files:
+  instructions_downloads: "README.md"
 
 remote_theme: pages-themes/slate@v0.2.0
