@@ -1,0 +1,106 @@
+/* Принудительная тёмная тема для GitHub Markdown */
+[data-color-mode="auto"] .markdown-body,
+[data-color-mode="dark"] .markdown-body {
+    --color-canvas-default: #0d1117 !important;
+    --color-canvas-subtle: #161b22 !important;
+    --color-border-default: #30363d !important;
+    --color-border-muted: #21262d !important;
+    --color-fg-default: #c9d1d9 !important;
+    --color-fg-muted: #8b949e !important;
+    --color-fg-subtle: #6e7681 !important;
+    --color-accent-fg: #58a6ff !important;
+}
+
+/* Принудительно применяем тёмные цвета */
+body {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+}
+
+.markdown-body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+    color: #c9d1d9;
+    border-bottom-color: #30363d;
+}
+
+.markdown-body a {
+    color: #58a6ff;
+}
+
+.markdown-body a:hover {
+    color: #79c0ff;
+}
+
+.markdown-body code {
+    background-color: #161b22;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+
+.markdown-body pre {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+}
+
+.markdown-body blockquote {
+    color: #8b949e;
+    border-left-color: #30363d;
+    background-color: #161b22;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+    border-color: #30363d;
+}
+
+.markdown-body table tr {
+    background-color: #0d1117;
+}
+
+.markdown-body table tr:nth-child(2n) {
+    background-color: #161b22;
+}
+
+/* Кастомные стили для кнопок */
+.download-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #238636, #2ea043);
+    color: white !important;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 10px 0;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background: linear-gradient(135deg, #2ea043, #3fb950);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(35, 134, 54, 0.3);
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Стили для списков */
+.markdown-body ul, 
+.markdown-body ol {
+    color: #c9d1d9;
+}
+
+.markdown-body li {
+    margin-bottom: 8px;
+}
