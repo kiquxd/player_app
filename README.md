@@ -2,6 +2,6 @@
 Мини-приложение - простой плеер для IOS с загрузкой, воспроизведением и фоновым прослушиванием треков
 
 # Ссылка для скачивания
-[Скачать плеер](https://kiquxd.github.io/player_app/mediaplayer.ipa)
+[Скачать плеер](https://kiquxd.github.io/player_app/apps/mediaplayer.ipa)
 
 # Спасибо за скачивание
